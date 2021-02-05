@@ -1,0 +1,14 @@
+$primaryClr: #090b08;
+$secondaryClr: #ecffe9;
+$thirdClr: rgba(0, 0, 0, 0.75);
+$fourthClr: #c0eea9;
+$fifthClr: #000;
+$sixthClr: #97d279;
+$StandardP: 20px;
+
+
+@mixin Style {
+    max-width: 700px;
+    text-align: center;
+    padding: $StandardP;
+  }
